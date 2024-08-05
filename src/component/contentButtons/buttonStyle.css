@@ -1,0 +1,23 @@
+.data
+{
+    /* background-color: rgb(131, 180, 223); */
+}
+span
+{
+    height: 5px;
+    width: 12%;
+    background-color: hwb(33 0% 0% / 0.985);
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:768px)
+{
+    span
+    {
+        width: 30%;
+    }
+}

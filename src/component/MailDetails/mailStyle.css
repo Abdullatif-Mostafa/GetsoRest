@@ -1,0 +1,79 @@
+.mailContent
+{
+    width: 100%;
+    height: 170px;
+}
+.MailDeltails
+{
+    display: flex;
+    border: 1px solid #e2e0e0;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.MailDeltails img
+{
+    width: 300px;
+    height: 200px;    
+}
+@media (max-width:992px)
+{
+    .MailDeltails img
+    {
+        height: 300px;
+    }  
+    .MailDeltails
+    {
+        /* background-color: red; */
+    }
+}
+@media (max-width:520px)
+{
+    .MailDeltails
+    {
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
+    }
+    .MailDeltails img
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width:521px) and (max-width:767px)
+{
+    .MailDeltails img
+    {
+        width: 50%;
+        /* margin-bottom: 10px; */
+    }
+}
+.MailDeltails .MailDesc .MailData
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 40px;
+    
+}
+.MailDeltails .MailDesc .diner
+{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.MailDeltails .MailDesc .price
+{
+    margin: 20px;
+    color: hwb(33 0% 0% / 0.985);
+    font-size: 20px;
+    /* color: #000; */
+}
+.MailDeltails .mailContDesc small
+{
+    color: #908a8a;
+    font-size: 19px;
+
+}
